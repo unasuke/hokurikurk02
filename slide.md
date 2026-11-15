@@ -30,7 +30,7 @@ theme
 
 # 来歴 : 生まれ
 * 福井県敦賀市生まれ
-    * <https://ja.wikipedia.org/wiki/敦賀市>
+    * [https://ja.wikipedia.org/wiki/敦賀市](https://ja.wikipedia.org/wiki/%E6%95%A6%E8%B3%80%E5%B8%82)
     * > 福井県の地方区分においては嶺南に含まれる。間投イントネーションがある嶺南方言が話されるとされる。
 
 ![](img/fukui-tsuruga-sabae-katsuyama-map.png){:relative_width='40'}
