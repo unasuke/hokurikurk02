@@ -204,10 +204,6 @@ RFCという文章で仕様を公開することで誰でも実装できる
 
 ![](img/googling-quic-rfc.png){:relative_width='80'}
 
-## properties
-background-image
-:  img/hokurikurk02-bg-upper-right-with-qr.png
-
 # QUICのRFCたち
 * RFC 8999 *← 今日はコレ！*
     * Version-Independent Properties of QUIC
@@ -218,16 +214,8 @@ background-image
 * RFC 9002
     * QUIC Loss Detection and Congestion Control
 
-## properties
-background-image
-:  img/hokurikurk02-bg-upper-right-with-qr.png
-
 # パケット
 ![](img/packet.png){:relative_width='50'}
-
-## properties
-background-image
-:  img/hokurikurk02-bg-upper-right-with-qr.png
 
 # パケットのヘッダ
 
@@ -235,17 +223,9 @@ background-image
 
 <https://www.kuronekoyamato.co.jp/ytc/customer/send/preparations/invoice/> より
 
-## properties
-background-image
-:  img/hokurikurk02-bg-upper-right-with-qr.png
-
 # QUICのパケットのヘッダー
 * Long header
 * Short header
-
-## properties
-background-image
-:  img/hokurikurk02-bg-upper-right-with-qr.png
 
 # QUIC Long header (RFC 8999)
 ```
@@ -260,10 +240,6 @@ Long Header Packet {
   Version-Specific Data (..),
 }
 ```
-
-## properties
-background-image
-:  img/hokurikurk02-bg-upper-right-with-qr.png
 
 # QUIC Long header (RFC 9000)
 ```
@@ -281,10 +257,6 @@ Long Header Packet {
 }
 ```
 
-## properties
-background-image
-:  img/hokurikurk02-bg-upper-right-with-qr.png
-
 # QUIC Short header (RFC 8999)
 ```
 Short Header Packet {
@@ -294,11 +266,6 @@ Short Header Packet {
   Version-Specific Data (..),
 }
 ```
-
-## properties
-background-image
-:  img/hokurikurk02-bg-upper-right-with-qr.png
-
 
 # QUIC Short header (RFC 9000)
 ```
@@ -315,10 +282,6 @@ background-image
 }
 ```
 
-## properties
-background-image
-:  img/hokurikurk02-bg-upper-right-with-qr.png
-
 # QUIC Long header (RFC 8999) (again)
 ```
 Long Header Packet {
@@ -332,10 +295,6 @@ Long Header Packet {
   Version-Specific Data (..),
 }
 ```
-
-## properties
-background-image
-:  img/hokurikurk02-bg-upper-right-with-qr.png
 
 # QUIC Version Negotiation Packet
 ```
@@ -353,10 +312,6 @@ Version Negotiation Packet {
 
 RFC 8999 だいたいこのくらいまで
 
-## properties
-background-image
-:  img/hokurikurk02-bg-upper-right-with-qr.png
-
 # QUIC RFCs words count
 
 | RFC | 単語数 `wc -w rfcXXXX.md` |
@@ -367,10 +322,6 @@ background-image
 | RFC 9002 | 10,897 |
 
 <https://github.com/quicwg/base-drafts> より
-
-## properties
-background-image
-:  img/hokurikurk02-bg-upper-right-with-qr.png
 
 # RFC 8999 Appendix A
 * Appendix A. Incorrect Assumptions 
@@ -386,10 +337,6 @@ background-image
 ![](img/wikipedia-quic-protocol-stack.png){:relative_width='60'}
 
 <https://en.wikipedia.org/wiki/QUIC> より
-
-## properties
-background-image
-:  img/hokurikurk02-bg-upper-right-with-qr.png
 
 # QUICの暗号化層がTLS 1.3という前提(誤)
 * "QUIC uses TLS, and some TLS messages are visible on the wire."
@@ -424,10 +371,6 @@ Long Header Packet {
 }
 ```
 
-## properties
-background-image
-:  img/hokurikurk02-bg-upper-right-with-qr.png
-
 # QUIC Short header (RFC 9000) (again)
 ```
 1-RTT Packet {
@@ -442,10 +385,6 @@ background-image
   Packet Payload (8..),
 }
 ```
-
-## properties
-background-image
-:  img/hokurikurk02-bg-upper-right-with-qr.png
 
 # Fixed Bit
 * "QUIC packets always have the second bit of the first byte (0x40) set."
@@ -463,10 +402,6 @@ background-image
 
 ![](img/greasing.png){:relative_width='50'}
 
-## properties
-background-image
-:  img/hokurikurk02-bg-upper-right-with-qr.png
-
 
 # TLS 1.2 → TLS 1.3
 
@@ -481,20 +416,11 @@ struct {
 } ClientHello;
 ```
 
-## properties
-background-image
-:  img/hokurikurk02-bg-upper-right-with-qr.png
-
 # TLS 1.2 → TLS 1.3
 
 > 従来のTLSバージョンでは、このフィールドはバージョンネゴシエーションに使用され、クライアントがサポートする最高バージョン番号を表していました。これまでの経験から、多くのサーバーがバージョンネゴシエーションを適切に実装しておらず、その結果、サーバーが本来であれば許容できるはずのClientHelloであっても、サポートしているバージョンより高いバージョン番号が含まれている場合にこれを拒否するという「バージョン不寛容」が生じていることが分かっています。
 
 <https://www.rfc-editor.org/info/rfc9846/#name-client-hello>
-
-
-## properties
-background-image
-:  img/hokurikurk02-bg-upper-right-with-qr.png
 
 # ossification (骨化、硬直化)
 
@@ -505,29 +431,17 @@ background-image
 ![](img/t-rex-fossil.png){:relative_width='40'}
 
 
-## properties
-background-image
-:  img/hokurikurk02-bg-upper-right-with-qr.png
-
 # QUIC v2 (RFC 9369)
 > QUIC version 2 is meant to mitigate ossification concerns and exercise the version negotiation mechanisms. 
 > (QUICバージョン2は、硬直化への懸念を軽減し、バージョンネゴシエーション機構を検証することを目的としています。)
 
 <https://www.rfc-editor.org/info/rfc9369/> より
 
-## properties
-background-image
-:  img/hokurikurk02-bg-upper-right-with-qr.png
-
 # HTTP protocol stacks (again)
 
 ![](img/wikipedia-quic-protocol-stack.png){:relative_width='60'}
 
 <https://en.wikipedia.org/wiki/QUIC> より
-
-## properties
-background-image
-:  img/hokurikurk02-bg-upper-right-with-qr.png
 
 # IPアドレスの例
 * IPv4
@@ -536,10 +450,6 @@ background-image
 * IPv6
     * `2001:db8::1`
     * `2001:db8:cafe::53`
-
-## properties
-background-image
-:  img/hokurikurk02-bg-upper-right-with-qr.png
 
 # ドメインとIPアドレスの対応
 * google.com
@@ -551,19 +461,11 @@ background-image
 
 ※ 発表時点
 
-## properties
-background-image
-:  img/hokurikurk02-bg-upper-right-with-qr.png
-
 # DNSの通信内容は暗号化されていない！
 
 ![](img/hanazuki-plain-dns.png){:relative_width='75'}
 
 <https://speakerdeck.com/hanazuki/secure-dns-resolver-at-rubykaigi-2023> より
-
-## properties
-background-image
-:  img/hokurikurk02-bg-upper-right-with-qr.png
 
 # DNSの通信を暗号化したい
 * DNS over TLS (RFC 7858)
@@ -573,20 +475,12 @@ background-image
 * DNS over QUIC (RFC 9250)
     * QUICで暗号化する
 
-## properties
-background-image
-:  img/hokurikurk02-bg-upper-right-with-qr.png
-
 # 理想形(たぶんそうなることは少ない)
 `https://blog.unasuke.com/` に行くために……
 
 1. DNS over QUICでIPアドレスの解決を行う
     * ここが多分あんまりそうならない
 2. HTTP/3 (QUIC)で `https://blog.unasuke.com/index.html` を取得する
-
-## properties
-background-image
-:  img/hokurikurk02-bg-upper-right-with-qr.png
 
 # 自分のここ数年の取り組み
 * RFCだけあっても実装がないと通信ができない
@@ -596,10 +490,6 @@ background-image
     * Apple (iPhoneとか)
     * Microsoft (Windowsとか)
 
-## properties
-background-image
-:  img/hokurikurk02-bg-upper-right-with-qr.png
-
 # 自分のここ数年の取り組み
 * QUICの実装
     * Google発
@@ -607,10 +497,6 @@ background-image
     * Microsoft (Windowsとか)
     * 組み込んで使えるライブラリ
         * ngtcp2, nghttp3, quiche...
-
-## properties
-background-image
-:  img/hokurikurk02-bg-upper-right-with-qr.png
 
 # 自分のここ数年の取り組み
 * quic gem, http3, gem
@@ -623,10 +509,6 @@ background-image
 * protocol-quic gem, protocol-http3 gem
     * それぞれ ngtcp2, nghttp3 をbindingするSamuel氏のプロジェクト
 
-## properties
-background-image
-:  img/hokurikurk02-bg-upper-right-with-qr.png
-
 # 自分のここ最近の取り組み
 * <https://github.com/unasuke/dohyo>
     * protocol-quicを採用しているDNS権威サーバー
@@ -634,19 +516,11 @@ background-image
 * quic gem, http3, gem と raiha gem
     * <https://blog.unasuke.com> を配信しています
 
-## properties
-background-image
-:  img/hokurikurk02-bg-upper-right-with-qr.png
-
 # Why?
 
 ![](img/sylph01-ruby.png){:relative_width='75'}
 
 <https://speakerdeck.com/sylph01/ren-ming-wojiu-uji-shu-tositenoend-to-endan-hao-hua-tomessaging-layer-security> より
-
-## properties
-background-image
-:  img/hokurikurk02-bg-upper-right-with-qr.png
 
 # プロトコル実装されがち言語
 * C, C++
@@ -656,17 +530,10 @@ background-image
 * Python
     * 実装する人が多い、そこそこ性能
 
-## properties
-background-image
-:  img/hokurikurk02-bg-upper-right-with-qr.png
 
 # 有言実行
 
 ![](img/distroless-and-ruby.png){:relative_width='90'}
-
-## properties
-background-image
-:  img/hokurikurk02-bg-upper-right-with-qr.png
 
 # まとめ
 * QUICはむずかしい！
@@ -675,7 +542,3 @@ background-image
     * quic gem, http3, gem と raiha gem
 * `dig +tls @ns1.unasuke.com blog.unasuke.com a`
     * Dig It!
-
-## properties
-background-image
-:  img/hokurikurk02-bg-upper-right-with-qr.png
