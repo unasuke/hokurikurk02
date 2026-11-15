@@ -1,4 +1,4 @@
-# 北陸Ruby会議02 基調講演 "Dig Ii!"
+# 北陸Ruby会議02 基調講演 "Dig It!"
 
 https://regional.rubykaigi.org/hokuriku02/
 
