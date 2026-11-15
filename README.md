@@ -16,8 +16,8 @@ https://regional.rubykaigi.org/hokuriku02/
 
 ### Install
 
-    gem install rabbit-slide--hokurikurk02
+    gem install rabbit-slide-unasuke-hokurikurk02
 
 ### Show
 
-    rabbit rabbit-slide--hokurikurk02.gem
+    rabbit rabbit-slide-unusuke-hokurikurk02.gem
