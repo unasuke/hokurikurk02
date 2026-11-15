@@ -1,6 +1,6 @@
-# TODO: SLIDE TITLE
+# 北陸Ruby会議02 基調講演 "Dig Ii!"
 
-TODO: SLIDE DESCRIPTION
+https://regional.rubykaigi.org/hokuriku02/
 
 ## For author
 
@@ -21,4 +21,3 @@ TODO: SLIDE DESCRIPTION
 ### Show
 
     rabbit rabbit-slide--hokurikurk02.gem
-
